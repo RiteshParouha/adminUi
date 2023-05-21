@@ -1,0 +1,50 @@
+.parent-modal{
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+    background-color: rgba(0,0,0,0.4) ;
+}
+
+.modal{
+    background-color: white;
+    padding: 2rem;
+    max-width:20rem;
+    border-radius: 5px;
+}
+.form-group{
+    display:flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+.form-group label{
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+.form-group input{
+    width:15rem;
+    height:2rem;
+    border-radius:5px;
+     
+}
+.submit{
+    padding:1rem;
+    padding-bottom:0rem; 
+    width:100%;
+}
+.btn{
+    margin-left: 4rem;
+    border:none;
+    width:5rem;
+    height:1.5rem;
+    background-color: #0a85cc;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+}

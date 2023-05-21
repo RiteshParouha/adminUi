@@ -1,0 +1,23 @@
+.pagination-button{
+    cursor: pointer;
+    width: 2.5rem;
+    height:2.5rem;
+    border: 2px solid #faf7f7;
+    border-radius:2rem;
+    background-color:#0aa5e8d0 ;
+    font-size:1.2rem;
+    color: #faf7f7;
+}
+.pagination-parent{
+    display: flex;
+    min-width:50%;
+    justify-content:space-around ;
+
+}
+ @media screen and (max-width:576px) {
+    .number-button{
+        display:none;
+    }
+ }
+/*#14b5fa*/
+/* #a3aaad */
